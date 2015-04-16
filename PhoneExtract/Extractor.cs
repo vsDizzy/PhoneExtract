@@ -17,7 +17,8 @@ namespace PhoneExtract
 
 		private string FormatPhone(string phone)
 		{
-			return _replaceEx.Replace(phone, "");
+			var val = _replaceEx.Replace(phone, "");
+			return string.Format(Settings.Default.Format, val);
 		}
 	}
 }

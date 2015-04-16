@@ -31,5 +31,14 @@ namespace PhoneExtract.Properties {
                 return ((string)(this["Regex"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("38{0}")]
+        public string Format {
+            get {
+                return ((string)(this["Format"]));
+            }
+        }
     }
 }
